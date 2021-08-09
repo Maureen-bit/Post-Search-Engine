@@ -1,0 +1,27 @@
+
+<div class="card quoteUserTemplate" *ngFor="let user of users">
+    <div class="card-header headerQuoteUser">
+        Detalles del usuario
+    </div>
+    <div class="card-body">
+        <blockquote class="blockquote mb-0">
+        <p>Nombre: {{user[0].name}}</p>
+        <p>Username: {{user[0].username}}</p>
+        <p>Sitio web: {{user[0].website}}</p>
+        <footer class="blockquote-footer footerQuoteUser">E-mail: <cite title="Source Title">{{user[0].email}}</cite></footer>
+        </blockquote>
+    </div>
+</div>
+<h1>Comentarios del post n°: <small>{{id}}</small></h1>
+<hr>
+<div class="row row-cols-1 row-cols-md-3 g-4 mt-4" >
+    <div *ngFor="let comment of comments" class="col">
+    <div class="card border-info mb-3 bodyComment" style="max-width: 25rem;">
+        <div class="card-header emailcomment">{{comment.email}}</div>
+        <div class="card-body">
+            <h5 class="card-title titleComment">{{comment.name}}</h5>
+            <p class="card-text">{{comment.body}}</p>
+        </div>
+    </div>
+    </div>
+</div>

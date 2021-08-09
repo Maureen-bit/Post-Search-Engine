@@ -1,27 +1,7 @@
-# PostSearchEngine
+Solución
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.2.
+En el siguiente código se desarrollaron varios componentes para la renderización de la aplicación, se utilizó Bootstrap como libreria de Css y HTML.
 
-## Development server
+En el archivo de servicios se realizó el llamado de los endPoints necesarios para la implementación de los componentes, se obtuvo la data mediante el módulo de http Client, así mismo con base a esta se realizó el filtrado de los posts mediante una función que recibe el termino escrito en la caja de texto de búsqueda y retornaba los elementos que tuvieran el índice mayor o igual a 0, en caso contrario, se mostrará una alerta que nos permite saber que no existen resultados.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Adicionalmente se agregó navegación en la aplicación con la que se agregaron funcionalidades como obtención de comentarios de cada post y detalles del usuario principal de cada uno de ellos.

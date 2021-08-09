@@ -1,0 +1,39 @@
+h1{
+    margin-top: 1em;
+    color: lavender;
+    text-align: center;
+}
+
+hr{
+    color: lavender
+}
+
+.quoteUserTemplate{
+    text-align: center;
+    margin-top: 1em;
+}
+
+.headerQuoteUser{
+    background-color: #e3d6f1;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.footerQuoteUser{
+    margin-top: 1em;
+    color: rgb(88, 70, 94);
+}
+
+.bodyComment{
+    border-color: darkmagenta !important;
+}
+
+.emailcomment{
+    text-align: center;
+    font-weight: bolder;
+    background-color: #e3d6f1;
+}
+
+.titleComment{
+    font-size: 2em;
+}

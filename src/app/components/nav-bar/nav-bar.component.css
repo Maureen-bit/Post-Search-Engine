@@ -1,0 +1,17 @@
+i{
+    color: rgb(53, 15, 65);;
+}
+
+.navBarCustom{
+    background-color: #e3d6f1;
+    color:rgb(53, 15, 65);
+}
+.searchButton{
+    border-color: darkmagenta;
+    color: rgb(53, 15, 65);;
+}
+
+.searchButton:hover{
+    background-color: #663f61bd;
+    color: lavender
+}

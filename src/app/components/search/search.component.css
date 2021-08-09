@@ -1,0 +1,15 @@
+h1{
+    color: lavender;
+    text-align: center;
+    margin-top: 1em;
+}
+
+hr{
+    color: lavender;
+}
+
+.alertCustom{
+    color: rgb(53, 15, 65);;
+    background-color: #e3d6f1;
+    border-color: darkmagenta;
+}

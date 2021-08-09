@@ -1,0 +1,22 @@
+h5{
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.footerCard{
+    background-color: #e3d6f1;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonFooterCard{
+    text-align: center;
+    margin: 1em;
+    color: rgb(53, 15, 65);
+    border-color: darkmagenta;
+}
+
+.buttonFooterCard:hover{
+    background-color: #663f61bd;
+    color: lavender;
+}

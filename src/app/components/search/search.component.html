@@ -1,0 +1,15 @@
+<h1>Resultados de Búsqueda: <small>{{param}}</small></h1>
+<hr>
+
+<div class="row" *ngIf="posts.length == 0">
+    <div class="col-md-12">
+        <div class="alert alert-info alertCustom" role="alert">
+            No existen posts con el termino ingresado: {{param}}
+        </div>
+    </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <app-post-card [post]="post" [id]="post.id" *ngFor="let post of posts"></app-post-card>
+</div>
+

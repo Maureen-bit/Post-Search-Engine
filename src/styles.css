@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+body {
+    padding-bottom: 4em;
+    background-color: #663f61bd;
+    font-family: 'Merienda', cursive;
+}
